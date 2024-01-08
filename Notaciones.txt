@@ -1,0 +1,3 @@
+Verificar los tipos de datos en la tabla de albums.
+El primer fallo encontrado esta en el la cantidad de canciones que tienen los albumes
+Hay un album que no tiene el nombre
