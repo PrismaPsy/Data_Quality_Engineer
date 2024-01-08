@@ -3,6 +3,7 @@ import json
 import pandas as pd
 
 # Guardamos la ruta del archivo.
+# La ruta '../' se utiliza para retroceder un nivel desde la carpeta "ETL" y poder acceder a la carpeta "Datasets".
 ruta = '../Datasets/taylor_swift_spotify.json'
 
 # Guardamos la información del archivo en un DataFrame.
