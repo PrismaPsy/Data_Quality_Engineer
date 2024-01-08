@@ -9,3 +9,9 @@ Se puede ver el 'ID' perteneciente a cada uno de los albums, el 'Nombre del arti
 
 ### **Paso N°2:**
 
+En el nuevo DataFrame que contiene la información desanidada de la columna 'Albums', ya podemos encontrar las primeras anomalías:
+- En la columna 'Nombre del album' podemos encontrar un valor nulo, y también un valor duplicado.
+- En la columna 'Total de canciones en el album' podemos encontrar un valor no numérico, y también que que el tipo de dato no es el adecuado.
+
+### **Paso N°3:**
+
