@@ -7,6 +7,8 @@
 En el dataset nos encontramos con los 27 discos existentes hasta la actualidad en la plataforma de Spotify de la artista musical llamada Taylor Swift.
 Se puede ver el 'ID' perteneciente a cada uno de los albums, el 'Nombre del artista', la 'Popularidad del artista', y los 'Albums'. No hay anomalías visibles en estos datos, a excepción de que encontramos datos anidados en la columna de 'Albums.
 
+![1](Images/dataset.png)
+
 ### **Paso N°2:**
 
 En el nuevo DataFrame que contiene la información desanidada de la columna 'Albums', ya podemos encontrar las primeras anomalías:
@@ -49,3 +51,5 @@ Creamos un nuevo DataFrame que contiene la información desanidada de la columna
 'audio_features.liveness'
 
 'audio_features.time_signature'
+
+![]
