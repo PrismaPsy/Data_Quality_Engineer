@@ -41,7 +41,7 @@ Creamos un nuevo DataFrame que contiene la información desanidada de la columna
 
 ![9](Images/data_tracks_null.png)
 
-### **Paso N°3:**
+### **Paso N°4:**
 
 Creamos un nuevo DataFrame que contiene la información desanidada de la columna 'Tracks', conservando sólo las columnas que hacen referencia a las **características del audio** de cada canción. Se encuentran los siguientes puntos a tener en consideración:
 
