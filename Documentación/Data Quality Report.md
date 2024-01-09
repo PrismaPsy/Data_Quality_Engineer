@@ -25,16 +25,27 @@ Creamos un nuevo DataFrame que contiene la información desanidada de la columna
 Creamos un nuevo DataFrame que contiene la información desanidada de la columna 'Tracks', conservando sólo las columnas que hacen referencia a los features de cada canción. Se encuentran los siguientes puntos a tener en consideración:
 
 - Las siguientes columnas tienen el tipo de dato como "object" y debería ser de tipo "float64":
+
 'audio_features.danceability'
+
 'audio_features.acousticness'
+
 'audio_features.instrumentalness'
+
 'audio_features.tempo'
 
 - Las siguientes columnas poseen datos faltantes:
+
 'audio_features.danceability'
+
 'audio_features.energy'
+
 'audio_features.key'
+
 'audio_features.loudness'
+
 'audio_features.speechiness'
+
 'audio_features.liveness'
+
 'audio_features.time_signature'
