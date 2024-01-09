@@ -18,7 +18,7 @@ En el nuevo DataFrame que contiene la información desanidada de la columna 'Alb
 
 ![3](Images/data_albums_duplicate.png)
 
-- En la columna 'Total de canciones en el album' podemos encontrar un valor no numérico, y también que el tipo de dato no es el adecuado.
+- En la columna 'Total de canciones en el album' podemos encontrar un valor no numérico, y que el tipo de dato no es el adecuado. También como dato relevante, podemos visualizar que en el último registro de 'Fecha de lanzamiento del album', la fecha corresponde a la de nacimiento de la artista, por lo tanto puede ser un registro erroneo.
 
 ![4](Images/data_albums_string.png)
 
@@ -30,7 +30,7 @@ En el nuevo DataFrame que contiene la información desanidada de la columna 'Alb
 
 ### **Paso N°3:**
 
-Creamos un nuevo DataFrame que contiene la información desanidada de la columna 'Tracks', conservando sólo las columnas que hacen referencia a las canciones. Se encuentran los siguientes puntos a tener en consideración:
+Creamos un nuevo DataFrame que contiene la información desanidada de la columna 'Tracks', conservando sólo las columnas que hacen referencia a las **canciones**. Se encuentran los siguientes puntos a tener en consideración:
 - La columna 'Track_ID' podría ubicarse al principio de la tabla. También en esta misma columna encontramos 4 datos faltantes.
 
 ![7](Images/data_tracks.png)
@@ -43,7 +43,7 @@ Creamos un nuevo DataFrame que contiene la información desanidada de la columna
 
 ### **Paso N°3:**
 
-Creamos un nuevo DataFrame que contiene la información desanidada de la columna 'Tracks', conservando sólo las columnas que hacen referencia a los features de cada canción. Se encuentran los siguientes puntos a tener en consideración:
+Creamos un nuevo DataFrame que contiene la información desanidada de la columna 'Tracks', conservando sólo las columnas que hacen referencia a las **características del audio** de cada canción. Se encuentran los siguientes puntos a tener en consideración:
 
 - Las siguientes columnas tienen el tipo de dato como "object" y debería ser de tipo "float64":
     * 'audio_features.danceability'
